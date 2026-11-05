@@ -1,0 +1,5 @@
+zone,region,cost,carbon,capacity,recovery_delay
+A,Mumbai,0.101,671,100,20
+B,Singapore,0.12,497,100,30
+C,Frankfurt,0.115,334,80,40
+D,Oregon,0.096,288.2,120,50

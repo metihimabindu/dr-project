@@ -1,0 +1,19 @@
+method,zone_down,two_zones_down,cpu_overload,network_loss,metric
+Random zone,94.1,70.4,100.0,100.0,weighted availability %
+Cheapest zone,96.3,69.7,100.0,100.0,weighted availability %
+Base paper Eq.1 (equal weights),92.5,65.5,100.0,100.0,weighted availability %
+TOPSIS,92.5,69.4,100.0,100.0,weighted availability %
+TOPSIS + look-ahead,96.3,72.0,100.0,100.0,weighted availability %
+TOPSIS + look-ahead + feedback,96.3,72.0,100.0,100.0,weighted availability %
+Random zone,35.9,38.3,,37.0,critical recovery s
+Cheapest zone,42.8,43.1,,48.5,critical recovery s
+Base paper Eq.1 (equal weights),33.9,34.9,,35.1,critical recovery s
+TOPSIS,28.3,34.9,,25.6,critical recovery s
+TOPSIS + look-ahead,34.1,41.7,,25.6,critical recovery s
+TOPSIS + look-ahead + feedback,34.1,41.7,,25.6,critical recovery s
+Random zone,26.85,21.29,30.53,25.51,carbon g / load unit
+Cheapest zone,26.46,21.39,26.79,21.59,carbon g / load unit
+Base paper Eq.1 (equal weights),29.0,21.74,33.55,29.61,carbon g / load unit
+TOPSIS,25.73,21.57,26.79,26.04,carbon g / load unit
+TOPSIS + look-ahead,24.92,21.48,26.79,26.04,carbon g / load unit
+TOPSIS + look-ahead + feedback,24.91,21.48,26.79,26.04,carbon g / load unit

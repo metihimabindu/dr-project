@@ -1,0 +1,9 @@
+service,priority,load,home_zone
+Payment,Critical,20,A
+Login,Critical,10,A
+Orders,Critical,25,B
+Search,Important,30,B
+Notifications,Important,15,C
+Reports,Normal,20,C
+Analytics,Normal,25,D
+Recommendations,Normal,20,D

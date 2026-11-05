@@ -1,0 +1,8 @@
+# Disaster-recovery declaration for the Payment service.
+# CI (ci/validate_services.py) checks this file on every push.
+name: Payment
+tier: Critical   # Critical | Important | Normal
+load_units: 20    # capacity the service needs, in the simulator's units
+home_zone: A      # zone where the service normally runs
+recovery:
+  rto_seconds: 60    # target: back in service within this time after a failure
