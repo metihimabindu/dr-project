@@ -1,19 +1,34 @@
 method,zone_down,two_zones_down,cpu_overload,network_loss,metric
-Random zone,75.5,55.2,100.0,93.8,weighted availability %
-Cheapest zone,76.0,54.4,100.0,93.8,weighted availability %
-Base paper Eq.1 (equal weights),74.9,54.4,100.0,93.8,weighted availability %
-TOPSIS,74.9,56.4,100.0,93.8,weighted availability %
-TOPSIS + look-ahead,76.0,56.9,100.0,93.8,weighted availability %
-TOPSIS + look-ahead + feedback,76.0,56.9,100.0,93.8,weighted availability %
-Random zone,45.1,42.8,,48.2,critical recovery s
-Cheapest zone,44.1,43.4,,44.3,critical recovery s
-Base paper Eq.1 (equal weights),45.9,43.6,,46.7,critical recovery s
-TOPSIS,42.9,42.3,,45.8,critical recovery s
-TOPSIS + look-ahead,41.2,42.3,,45.8,critical recovery s
-TOPSIS + look-ahead + feedback,41.4,41.2,,44.6,critical recovery s
-Random zone,28.89,21.68,31.86,29.35,carbon g / load unit
-Cheapest zone,27.31,21.23,28.48,26.32,carbon g / load unit
-Base paper Eq.1 (equal weights),29.32,21.25,33.55,30.62,carbon g / load unit
-TOPSIS,29.84,22.41,28.48,28.52,carbon g / load unit
-TOPSIS + look-ahead,29.6,22.36,28.48,28.52,carbon g / load unit
-TOPSIS + look-ahead + feedback,29.17,22.26,28.48,27.87,carbon g / load unit
+Random zone,80.4,54.7,100.0,100.0,weighted availability %
+Cheapest zone,80.4,53.8,100.0,100.0,weighted availability %
+Cost-only recovery,80.4,53.8,100.0,100.0,weighted availability %
+Carbon-only recovery,80.4,53.8,100.0,100.0,weighted availability %
+Base paper Eq.1 (equal weights),80.4,53.8,100.0,100.0,weighted availability %
+TOPSIS,80.4,55.6,100.0,100.0,weighted availability %
+TOPSIS + look-ahead,80.4,55.6,100.0,100.0,weighted availability %
+TOPSIS without cost,80.4,55.6,100.0,100.0,weighted availability %
+TOPSIS without carbon,80.4,55.6,100.0,100.0,weighted availability %
+TOPSIS without cost and carbon,80.4,55.6,100.0,100.0,weighted availability %
+TOPSIS + look-ahead + feedback,80.4,55.6,100.0,100.0,weighted availability %
+Random zone,42.6,48.7,,48.6,critical recovery s
+Cheapest zone,43.2,47.2,,35.9,critical recovery s
+Cost-only recovery,43.2,47.2,,35.9,critical recovery s
+Carbon-only recovery,43.2,47.2,,35.9,critical recovery s
+Base paper Eq.1 (equal weights),43.2,47.2,,41.1,critical recovery s
+TOPSIS,38.7,46.9,,39.8,critical recovery s
+TOPSIS + look-ahead,38.7,46.9,,39.8,critical recovery s
+TOPSIS without cost,38.7,46.9,,39.8,critical recovery s
+TOPSIS without carbon,38.7,46.9,,39.8,critical recovery s
+TOPSIS without cost and carbon,38.7,46.9,,39.8,critical recovery s
+TOPSIS + look-ahead + feedback,38.7,45.3,,37.5,critical recovery s
+Random zone,26.38,23.32,33.55,27.34,carbon g / load unit
+Cheapest zone,26.45,23.45,29.3,21.77,carbon g / load unit
+Cost-only recovery,26.45,23.45,29.3,21.77,carbon g / load unit
+Carbon-only recovery,26.45,22.98,29.3,21.77,carbon g / load unit
+Base paper Eq.1 (equal weights),27.7,23.45,33.55,29.13,carbon g / load unit
+TOPSIS,26.99,25.29,29.3,27.79,carbon g / load unit
+TOPSIS + look-ahead,26.99,25.29,29.3,27.79,carbon g / load unit
+TOPSIS without cost,26.99,25.29,29.3,27.79,carbon g / load unit
+TOPSIS without carbon,29.27,25.29,33.55,30.74,carbon g / load unit
+TOPSIS without cost and carbon,29.27,25.29,33.55,30.74,carbon g / load unit
+TOPSIS + look-ahead + feedback,27.11,24.72,29.3,25.52,carbon g / load unit

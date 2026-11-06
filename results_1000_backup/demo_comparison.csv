@@ -1,0 +1,21 @@
+scenario,strategy,failed,recovered,critical_recovered,weighted_availability_%,avg_recovery_sec,cost,carbon_g
+Zone A goes down,topsis,2,2,2/2,100.0,41.0,330.0,545.0
+Zone A goes down,topsis_basic,2,2,2/2,100.0,41.0,330.0,545.0
+Zone A goes down,cheapest,2,2,2/2,100.0,41.0,300.0,370.0
+Zone A goes down,random,2,2,2/2,100.0,41.0,330.0,545.0
+Zone B goes down,topsis,2,2,1/1,100.0,36.0,525.0,1212.5
+Zone B goes down,topsis_basic,2,1,1/1,60.0,20.0,250.0,875.0
+Zone B goes down,cheapest,2,2,1/1,100.0,36.0,525.0,1212.5
+Zone B goes down,random,2,1,1/1,60.0,20.0,250.0,875.0
+CPU overload in Zone D,topsis,1,1,0/0,100.0,20.0,250.0,875.0
+CPU overload in Zone D,topsis_basic,1,1,0/0,100.0,20.0,250.0,875.0
+CPU overload in Zone D,cheapest,1,1,0/0,100.0,20.0,250.0,875.0
+CPU overload in Zone D,random,1,1,0/0,100.0,20.0,250.0,875.0
+Network loss on Payment,topsis,1,1,1/1,100.0,30.0,240.0,480.0
+Network loss on Payment,topsis_basic,1,1,1/1,100.0,30.0,240.0,480.0
+Network loss on Payment,cheapest,1,1,1/1,100.0,50.0,180.0,130.0
+Network loss on Payment,random,1,1,1/1,100.0,30.0,240.0,480.0
+Zones B and D go down together,topsis,4,2,1/1,57.1,31.0,550.0,1255.0
+Zones B and D go down together,topsis_basic,4,2,1/1,57.1,31.0,550.0,1255.0
+Zones B and D go down together,cheapest,4,2,1/1,57.1,21.0,450.0,1575.0
+Zones B and D go down together,random,4,2,1/1,57.1,21.0,450.0,1575.0

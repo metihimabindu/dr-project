@@ -1,0 +1,41 @@
+scenario,strategy,service,priority,load,to_zone,status,recovery_sec,cost,carbon_g
+Zone A goes down,topsis,Payment,Critical,20,B,RECOVERED,30.0,240.0,480.0
+Zone A goes down,topsis,Login,Critical,10,D,RECOVERED,52.0,90.0,65.0
+Zone A goes down,topsis_basic,Payment,Critical,20,B,RECOVERED,30.0,240.0,480.0
+Zone A goes down,topsis_basic,Login,Critical,10,D,RECOVERED,52.0,90.0,65.0
+Zone A goes down,cheapest,Payment,Critical,20,D,RECOVERED,50.0,180.0,130.0
+Zone A goes down,cheapest,Login,Critical,10,B,RECOVERED,32.0,120.0,240.0
+Zone A goes down,random,Payment,Critical,20,B,RECOVERED,30.0,240.0,480.0
+Zone A goes down,random,Login,Critical,10,D,RECOVERED,52.0,90.0,65.0
+Zone B goes down,topsis,Orders,Critical,25,D,RECOVERED,50.0,225.0,162.5
+Zone B goes down,topsis,Search,Important,30,A,RECOVERED,22.0,300.0,1050.0
+Zone B goes down,topsis_basic,Orders,Critical,25,A,RECOVERED,20.0,250.0,875.0
+Zone B goes down,topsis_basic,Search,Important,30,-,WAITING (no capacity),,0.0,0.0
+Zone B goes down,cheapest,Orders,Critical,25,D,RECOVERED,50.0,225.0,162.5
+Zone B goes down,cheapest,Search,Important,30,A,RECOVERED,22.0,300.0,1050.0
+Zone B goes down,random,Orders,Critical,25,A,RECOVERED,20.0,250.0,875.0
+Zone B goes down,random,Search,Important,30,-,WAITING (no capacity),,0.0,0.0
+CPU overload in Zone D,topsis,Analytics,Normal,25,A,RECOVERED,20.0,250.0,875.0
+CPU overload in Zone D,topsis_basic,Analytics,Normal,25,A,RECOVERED,20.0,250.0,875.0
+CPU overload in Zone D,cheapest,Analytics,Normal,25,A,RECOVERED,20.0,250.0,875.0
+CPU overload in Zone D,random,Analytics,Normal,25,A,RECOVERED,20.0,250.0,875.0
+Network loss on Payment,topsis,Payment,Critical,20,B,RECOVERED,30.0,240.0,480.0
+Network loss on Payment,topsis_basic,Payment,Critical,20,B,RECOVERED,30.0,240.0,480.0
+Network loss on Payment,cheapest,Payment,Critical,20,D,RECOVERED,50.0,180.0,130.0
+Network loss on Payment,random,Payment,Critical,20,B,RECOVERED,30.0,240.0,480.0
+Zones B and D go down together,topsis,Orders,Critical,25,A,RECOVERED,20.0,250.0,875.0
+Zones B and D go down together,topsis,Search,Important,30,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,topsis,Analytics,Normal,25,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,topsis,Recommendations,Normal,20,C,RECOVERED,42.0,300.0,380.0
+Zones B and D go down together,topsis_basic,Orders,Critical,25,A,RECOVERED,20.0,250.0,875.0
+Zones B and D go down together,topsis_basic,Search,Important,30,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,topsis_basic,Analytics,Normal,25,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,topsis_basic,Recommendations,Normal,20,C,RECOVERED,42.0,300.0,380.0
+Zones B and D go down together,cheapest,Orders,Critical,25,A,RECOVERED,20.0,250.0,875.0
+Zones B and D go down together,cheapest,Search,Important,30,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,cheapest,Analytics,Normal,25,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,cheapest,Recommendations,Normal,20,A,RECOVERED,22.0,200.0,700.0
+Zones B and D go down together,random,Orders,Critical,25,A,RECOVERED,20.0,250.0,875.0
+Zones B and D go down together,random,Search,Important,30,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,random,Analytics,Normal,25,-,WAITING (no capacity),,0.0,0.0
+Zones B and D go down together,random,Recommendations,Normal,20,A,RECOVERED,22.0,200.0,700.0

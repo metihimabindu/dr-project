@@ -1,0 +1,16 @@
+matched_decisions,same_candidate_sets,ranking_changes_same_candidates,selection_changes_same_candidates,selection_change_pct_same_candidates,condition,comparison
+105,105,0,0,0.0,no_drift,cost_impact
+105,105,22,22,20.95,no_drift,carbon_impact
+105,105,22,22,20.95,no_drift,combined_impact
+105,105,1,1,0.95,no_drift,feedback_impact
+100,97,0,5,5.15,no_drift,lookahead_impact
+105,105,0,0,0.0,drift,cost_impact
+105,105,22,22,20.95,drift,carbon_impact
+105,105,22,22,20.95,drift,combined_impact
+105,99,16,15,15.15,drift,feedback_impact
+100,97,0,5,5.15,drift,lookahead_impact
+87,87,0,0,0.0,stress,cost_impact
+87,87,9,9,10.34,stress,carbon_impact
+87,87,9,9,10.34,stress,combined_impact
+87,85,8,6,7.06,stress,feedback_impact
+87,87,0,0,0.0,stress,lookahead_impact
